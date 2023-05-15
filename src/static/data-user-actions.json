@@ -1,0 +1,58 @@
+{
+  "data" : [
+    { 
+      "name": "Doctor",
+      "text": "Format", 
+      "icon": "bx bx-calendar",
+      "avtr": "",
+      "link": "sessions/book",
+      "user": ["user"],
+      "actv": true
+    },   
+    { 
+      "name": "Buy",
+      "text": "Mint Token", 
+      "icon": "bx bx-shopping-bag",
+      "avtr": "",
+      "link": "stockist/list",
+      "user": ["user"],
+      "actv": true
+    },
+    { 
+      "name": "Scan",
+      "text": "Invite User", 
+      "icon": "bx bx-qr",
+      "avtr": "",
+      "link": "scan",
+      "user": ["user", "admin", "stockist"],
+      "actv": true
+    },
+    { 
+      "name": "Top Up",
+      "text": "Add Funds", 
+      "icon": "bx bx-plus-circle",
+      "avtr": "",
+      "link": "account/credit",
+      "user": ["user", "doctor", "admin", "sales", "stockist"],
+      "actv": true
+    },
+    { 
+      "name": "Transfer",
+      "text": "Add Funds", 
+      "icon": "bx bx-up-arrow-circle",
+      "avtr": "",
+      "link": "transfers/debit",
+      "user": ["user", "doctor", "admin", "sales", "stockist"],
+      "actv": true
+    },    
+    { 
+      "name": "Withdraw",
+      "text": "Add Funds", 
+      "icon": "bx bx-minus-circle",
+      "avtr": "",
+      "link": "account/debit",
+      "user": ["user", "doctor", "admin", "sales", "stockist"],
+      "actv": true
+    }
+  ]
+}
